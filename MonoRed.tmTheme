@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>Mono - Red - Dark</string>
+    <key>comment</key>
+    <string>WIP. Includes syntax highlighting for HTML, CSS / SASS / SCSS, andSublimeLinter</string>
+    <key>author</key>
+    <string>Joshua Richey</string>
+    <key>settings</key>
+    <array>
+        <dict>
+            <key>settings</key>
+            <dict>
+                <!-- Background -->
+                <key>background</key>
+                <string>#111</string>
+                <!-- Foreground -->
+                <key>foreground</key>
+                <string>#e5e5e5</string>
+                <!-- Caret -->
+                <key>caret</key>
+                <string>#cc0033</string>
+                <!-- Gutter -->
+                <key>gutter</key>
+                <string>#111</string>
+                <!-- Gutter - Foreground -->
+                <key>gutterForeground</key>
+                <string>#5B0017</string>
+                <!-- Guide -->
+                <key>guide</key>
+                <string>#222</string>
+                <!-- Guide - Active -->
+                <key>activeGuide</key>
+                <string>#333</string>
+                <!-- Guide - Stack -->
+                <key>stackGuide</key>
+                <string>#222</string>
+                <!-- Invisibles -->
+                <key>invisibles</key>
+                <string>#333</string>
+                <!-- Line Highlight -->
+                <key>lineHighlight</key>
+                <string>#000000</string>
+                <!-- Selection -->
+                <key>selection</key>
+                <string>#410000</string>
+                <!-- Selection - Inactive -->
+                <key>inactiveSelection</key>
+                <string>#23323f</string>
+                <!-- Find Result -->
+                <key>findHighlight</key>
+                <string>#CCCCCC</string>
+            </dict>
+        </dict>
+
+        <!-- Comment -->
+        <dict>
+            <key>name</key>
+            <string>Comment</string>
+            <key>scope</key>
+            <string>comment</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#820020</string>
+            </dict>
+        </dict>
+
+        <!-- String -->
+        <dict>
+            <key>name</key>
+            <string>String</string>
+            <key>scope</key>
+            <string>string</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string />
+                <key>foreground</key>
+                <string>#555</string>
+            </dict>
+        </dict>
+
+        <!-- Number -->
+        <dict>
+            <key>name</key>
+            <string>Number</string>
+            <key>scope</key>
+            <string>constant.numeric</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#999</string>
+                <key>fontStyle</key>
+                <string>normal</string>
+            </dict>
+        </dict>
+
+        <!-- Keyword -->
+        <dict>
+            <key>name</key>
+            <string>Keyword</string>
+            <key>scope</key>
+            <string>keyword</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string />
+                <key>foreground</key>
+                <string>#666</string>
+            </dict>
+        </dict>
+
+        <!-- Entity -->
+        <dict>
+            <key>name</key>
+            <string>Entity</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#666</string>
+            </dict>
+        </dict>
+
+        <!-- Storage -->
+        <dict>
+            <key>name</key>
+            <string>Storage</string>
+            <key>scope</key>
+            <string>storage</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#666</string>
+            </dict>
+        </dict>
+
+        <!-- Constant -->
+        <dict>
+            <key>name</key>
+            <string>Constant</string>
+            <key>scope</key>
+            <string>constant</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#666</string>
+            </dict>
+        </dict>
+
+        <!-- Invalid -->
+        <dict>
+            <key>name</key>
+            <string>Invalid</string>
+            <key>scope</key>
+            <string>invalid</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DBBB7B</string>
+            </dict>
+        </dict>
+
+        <!-- Class (definition) -->
+        <dict>
+            <key>name</key>
+            <string>Class (definition)</string>
+            <key>scope</key>
+            <string>entity.name</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#888</string>
+            </dict>
+        </dict>
+
+        <!-- Variables -->
+        <dict>
+            <key>name</key>
+            <string>Variable</string>
+            <key>scope</key>
+            <string>variable</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#888</string>
+                <key>fontStyle</key>
+                <string>normal</string>
+            </dict>
+        </dict>
+
+        <!-- Tag name -->
+        <dict>
+            <key>name</key>
+            <string>Tag name</string>
+            <key>scope</key>
+            <string>entity.name.tag</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#999</string>
+                <key>fontStyle</key>
+                <string>normal</string>
+            </dict>
+        </dict>
+
+        <!-- Tag start/end -->
+        <dict>
+            <key>name</key>
+            <string>Tag start/end</string>
+            <key>scope</key>
+            <string>punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#999</string>
+                <key>fontStyle</key>
+                <string>normal</string>
+            </dict>
+        </dict>
+
+        <!-- CSS / SASS / SCSS -->
+        <dict>
+            <key>name</key>
+            <string>CSS/SASS/SCSS Punctuation</string>
+            <key>scope</key>
+            <string>punctuation.section.function.css, punctuation.definition.constant.css, source.scss comment.punctuation</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key><string />
+                <key>foreground</key>
+                <string>#333</string>
+            </dict>
+        </dict>
+        <!-- SCSS Variables -->
+        <dict>
+            <key>name</key>
+            <string>SASS/SCSS Variables</string>
+            <key>scope</key>
+            <string>variable.parameter.sass, support.constant.property-value.css.sass variable</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#666</string>
+            </dict>
+        </dict>
+
+        <!-- @charset, @import, @include @etc -->
+        <dict>
+            <key>name</key>
+            <string>CSS/SASS/SCSS Keywords</string>
+            <key>scope</key>
+            <string>keyword.control.at-rule, keyword.other.important.css, keyword.other.default.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#999</string>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+
+        <!-- Functions -->
+        <dict>
+            <key>name</key>
+            <string>CSS/SASS/SCSS Functions</string>
+            <key>scope</key>
+            <string>support.function.name.sass, source.css support.function, support.function.misc.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#777</string>
+            </dict>
+        </dict>
+
+        <!-- Elements -->
+        <dict>
+            <key>name</key>
+            <string>CSS/SASS/SCSS Elements</string>
+            <key>scope</key>
+            <string>entity.other.attribute-name</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>normal</string>
+                <key>foreground</key>
+                <string>#999</string>
+            </dict>
+        </dict>
+
+        <!-- Pseudo Elements -->
+        <dict>
+            <key>name</key>
+            <string>CSS: pseudo-element</string>
+            <key>scope</key>
+            <string>entity.other.attribute-name.pseudo-element,</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>CSS: pseudo-class</string>
+            <key>scope</key>
+            <string>entity.other.attribute-name.pseudo-class, entity.other.attribute-name.tag.pseudo-class</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+
+        <!-- Property Names -->
+        <dict>
+            <key>name</key>
+            <string>CSS/SASS/SCSS Property Names</string>
+            <key>scope</key>
+            <string>support.type.property-name, meta.property-list.css meta.property-name.css</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key><string />
+                <key>foreground</key>
+                <string>#444</string>
+            </dict>
+        </dict>
+
+        <!-- Units -->
+        <dict>
+            <key>name</key>
+            <string>CSS/SASS/SCSS Units</string>
+            <key>scope</key>
+            <string>keyword.other.unit.css, constant.other.unit.sass, keyword.other.unit.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#999</string>
+            </dict>
+        </dict>
+
+        <!-- Parameters -->
+        <dict>
+            <key>name</key>
+            <string>CSS/SASS/SCSS Parameters</string>
+            <key>scope</key>
+            <string>source.css variable.parameter, source.sass variable.parameter, source.scss variable.parameter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#666</string>
+            </dict>
+        </dict>
+
+        <!-- Constant Language -->
+        <dict>
+            <key>name</key>
+            <string>CSS/SASS/SCSS Constant Language</string>
+            <key>scope</key>
+            <string>meta.property-value.css support.constant, source.sass support.constant, meta.property-value.scss support.constant</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#666</string>
+            </dict>
+        </dict>
+
+        <!-- Color Values -->
+        <dict>
+            <key>name</key>
+            <string>CSS/SASS/SCSS Color Values</string>
+            <key>scope</key>
+            <string>constant.other.color.rgb-value.css, constant.other.rgb-value.sass, constant.other.color.rgb-value.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>normal</string>
+                <key>foreground</key>
+                <string>#999</string>
+            </dict>
+        </dict>
+
+        <!-- Sublime Linter -->
+        <dict>
+            <key>name</key>
+            <string>SublimeLinter Warning</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DBBB7B</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>SublimeLinter Outline</string>
+            <key>scope</key>
+            <string>sublimelinter.outline.illegal</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#fff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>SublimeLinter Gutter Mark</string>
+            <key>scope</key>
+            <string>sublimelinter.gutter-mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>SublimeLinter Error</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFA900</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
